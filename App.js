@@ -1,10 +1,21 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, ScrollView} from 'react-native';
+import MateriFlexBox from './MateriFlexBox';
+import SampleComponent from './SampleComponent';
+import StylingReactNativeComponent from './StylingReactNativeComponent';
+import PositionReactNative from './PositionReactNative';
 
+//ini contoh function component
+//
 const App = () => {
   return (
     <View>
-      <Text> Hello Word</Text>
+      <ScrollView>
+        {/* <SampleComponent />
+        <StylingReactNativeComponent />
+        <MateriFlexBox /> */}
+        <PositionReactNative />
+      </ScrollView>
     </View>
   );
 };
