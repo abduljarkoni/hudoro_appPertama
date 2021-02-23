@@ -1,12 +1,12 @@
 import React from 'react';
 import {StyleSheet, Text, View, Image} from 'react-native';
-import Keranjang from './keranjang.png';
+import Keranjang from '../../assets/icon/keranjang.png';
 
 //memahami konsep positioning component dalam reactnative
 //seperti pemberitahuan dalam install akan muncul angka 14
 //dan ada lingkaran merah di atas icon gambar
 
-export default function PositionReactNative() {
+export default function PositionNative() {
   return (
     <View style={styles.wrapper}>
       <Text style={styles.text_titel}>Materi Positioning Komponen</Text>
