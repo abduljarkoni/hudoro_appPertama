@@ -5,6 +5,7 @@ import SampleComponent from './pages/SampleComponent';
 import StylingComponent from './pages/StylingComponent';
 import PositionNative from './pages/PositionNative';
 import PropsDinamis from './pages/PropsDinamis';
+import StateDinamis from './pages/StateDinamis';
 
 //ini contoh function component
 //
@@ -37,7 +38,10 @@ const App = () => {
         {/* <FlexBox /> */}
 
         {/* //materi propsdinamis untuk componen */}
-        <PropsDinamis />
+        {/* <PropsDinamis /> */}
+
+        {/* //materi state dinamis */}
+        <StateDinamis />
 
         {/* jika nilai isshow bernilai true maka tampilkan FlexBox
         bararti jika isshow nya bernilai flase maka komponen flexbox akan hilang atau will unmout*/}
