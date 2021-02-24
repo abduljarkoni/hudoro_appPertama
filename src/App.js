@@ -4,6 +4,7 @@ import FlexBox from './pages/FlexBox';
 import SampleComponent from './pages/SampleComponent';
 import StylingComponent from './pages/StylingComponent';
 import PositionNative from './pages/PositionNative';
+import PropsDinamis from './pages/PropsDinamis';
 
 //ini contoh function component
 //
@@ -35,9 +36,12 @@ const App = () => {
         <StylingComponent /> */}
         {/* <FlexBox /> */}
 
+        {/* //materi propsdinamis untuk componen */}
+        <PropsDinamis />
+
         {/* jika nilai isshow bernilai true maka tampilkan FlexBox
-        bararti jika isshow nya bernilai flase maka komponen flexbox akan hilang */}
-        {isShow && <FlexBox />}
+        bararti jika isshow nya bernilai flase maka komponen flexbox akan hilang atau will unmout*/}
+        {/* {isShow && <FlexBox />} */}
 
         {/* <PositionNative /> */}
       </ScrollView>
