@@ -13,13 +13,17 @@ const App = () => {
   //ini adalh fungsi untuk menghilangkan component flexbox
   //menggunakn nilai boolean
   //jangan lupa import di paling ada di packege react useeffect dan usesatetnya
+  //
+  //ini melakukan fungsi menghilangkan komponen / unmount
   const [isShow, SetIsShow] = useState(true);
-  // //
-  // //fungsi hooks dalam useeffect
+  // // //
+  // // //fungsi hooks dalam useeffect
+  //
   useEffect(() => {
-    // ini menghilangkan komponen flexbox dengan delay 6 detik/600 miliscond
+    //   //
+    //   // ini menghilangkan komponen flexbox dengan delay 6 detik/600 miliscond
     setTimeout(() => {
-      // memberikan nilai isshow nya false  agar hilang komponenya
+      //     // memberikan nilai isshow nya false  agar hilang komponenya
       SetIsShow(false);
     }, 6000);
   }, []);
