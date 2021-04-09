@@ -6,6 +6,8 @@ import StylingComponent from './pages/StylingComponent';
 import PositionNative from './pages/PositionNative';
 import PropsDinamis from './pages/PropsDinamis';
 import StateDinamis from './pages/StateDinamis';
+import CommunicationComponents from './pages/CommunicationComponents';
+import BasicJavascript from './pages/BasicJS';
 
 //ini contoh function component
 //
@@ -33,21 +35,28 @@ const App = () => {
   return (
     <View>
       <ScrollView>
-        {/* <SampleComponent />
-        <StylingComponent /> */}
+        {/* <SampleComponent /> */}
+        {/* <StylingComponent /> */}
+
         {/* <FlexBox /> */}
 
         {/* //materi propsdinamis untuk componen */}
         {/* <PropsDinamis /> */}
 
         {/* //materi state dinamis */}
-        <StateDinamis />
+        {/* <StateDinamis /> */}
+
+        {/* //ini materi communication antar componen */}
+
+        {/* <CommunicationComponents /> */}
 
         {/* jika nilai isshow bernilai true maka tampilkan FlexBox
         bararti jika isshow nya bernilai flase maka komponen flexbox akan hilang atau will unmout*/}
         {/* {isShow && <FlexBox />} */}
 
         {/* <PositionNative /> */}
+
+        <BasicJavascript />
       </ScrollView>
     </View>
   );
