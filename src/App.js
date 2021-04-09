@@ -8,6 +8,7 @@ import PropsDinamis from './pages/PropsDinamis';
 import StateDinamis from './pages/StateDinamis';
 import CommunicationComponents from './pages/CommunicationComponents';
 import BasicJavascript from './pages/BasicJS';
+import ImageSvg from './pages/ImageSvg';
 
 //ini contoh function component
 //
@@ -56,7 +57,9 @@ const App = () => {
 
         {/* <PositionNative /> */}
 
-        <BasicJavascript />
+        {/* <BasicJavascript /> */}
+
+        <ImageSvg />
       </ScrollView>
     </View>
   );
